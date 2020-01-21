@@ -1,0 +1,3 @@
+/app/gradle/src/main/java/cs/ualberta/cmput402/tictactoe/TicTacToeGame.java
+/app/gradle/src/main/java/cs/ualberta/cmput402/tictactoe/board/exceptions/InvalidMoveException.java
+/app/gradle/src/main/java/cs/ualberta/cmput402/tictactoe/board/Board.java
