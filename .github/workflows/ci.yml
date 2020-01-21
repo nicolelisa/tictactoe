@@ -7,6 +7,7 @@ on:
 
 jobs:
   run-pitest:
+    runs-on: ubuntu-18.04
     steps:
       - name: Install maven
         uses: xlui/action-maven-cli@v1.0
