@@ -13,7 +13,7 @@ jobs:
         uses: xlui/action-maven-cli@v1.0
 
       - name: Install dependencies
-        uses: mvn clean install
+        runs: mvn clean install
 
       - name: Run pitest
-        uses: mvn org.pitest:pitest-maven:mutationCoverage
+        runs: mvn org.pitest:pitest-maven:mutationCoverage
